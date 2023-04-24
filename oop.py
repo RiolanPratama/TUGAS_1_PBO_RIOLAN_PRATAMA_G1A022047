@@ -1,4 +1,4 @@
-class Person:
+class Orang:
     def __init__(self, name, age):
         self._name = name
         self._age = age
@@ -15,7 +15,7 @@ class Person:
     def set_age(self, age):
         self._age = age
 
-person1 = Person("Riolan", 19)
-print(person1.get_name())
-person1.set_name("David")
-print(person1.get_name())
+Orang1 = Orang("Riolan", 19)
+print(Orang1.get_name())
+Orang1.set_name("David")
+print(Orang1.get_name())
